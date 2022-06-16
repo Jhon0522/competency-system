@@ -20,10 +20,11 @@
                     <form class="list-group-item list-group-item-action" action="{% url 'SearchResultsView' %}" method="get">
                         <input type="text" name="q" placeholder="Search for Teacher" autocomplete="on" autofocus="on" id="search-field">
                     </form>
-                    <a class="list-group-item list-group-item-action" role="button" href="{% url 'LogoutView' %}">Logout</a>
+                    
                     <a class="list-group-item list-group-item-action" role="button" href="{% url 'ListFeedbackView' %}">View all Assessment Form</a>
                     <!-- TODO: Add a confirmation modal -->
                     <a class="list-group-item list-group-item-action" role="button" href="{% url 'deleteAllFeedback' %}">Delete all Assessment Form</a>
+                    <a class="list-group-item list-group-item-action" role="button" href="{% url 'LogoutView' %}">Logout</a>
                 </ul>
             </div>
         </div>

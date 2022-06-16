@@ -9,10 +9,11 @@
             <hr class="p-0 m-0 mb-3">
             <p style="font-size: 23px;"><strong>Department:</strong><br>{{ feedback.punctuality }}</p>
             <p style="font-size: 23px;"><strong>College:</strong><br>{{ feedback.portion }}</p>
-            <p style="font-size: 23px;"><strong>The teacher takes in effort to clear your doubts:</strong><br>{{ feedback.doubt }}</p>
-            <p style="font-size: 23px;"><strong>The teacher makes the class interactive:</strong><br>{{ feedback.interactive }}</p>
+            <p style="font-size: 23px;"><strong>Basic:</strong><br>{{ feedback.basic }}</p>
+            <p style="font-size: 23px;"><strong>Intermediate:</strong><br>{{ feedback.intermediate }}</p>
+            <p style="font-size: 23px;"><strong>Advanced:</strong><br>{{ feedback.advanced }}</p>
+            <p style="font-size: 23px;"><strong>Superior:</strong><br>{{ feedback.superior }}</p>
             <p style="font-size: 23px;"><strong>Other Comments:</strong><br>{{ feedback.comments }}</p>
-
             <div class="row pt-3">
                 <a class="btn btn-outline-primary ml-4 mr-4 col" role="button" href="{% url 'ListFeedbackView' %}">Back to all Evaluation</a>
                 <!-- TODO: Add a confirmation modal -->
